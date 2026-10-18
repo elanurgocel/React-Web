@@ -1,6 +1,6 @@
-# Meram Belediyesi Tanıtım Sitesi
+Uygulama Teknik Bilgiler
 
-React ile geliştirilmiş, Konya Meram ilçesini ve belediye hizmetlerini tanıtan çok sayfalı bir web sitesi.
+Üretken Akademi Kurs eğitimi sürecinde React ile geliştirilmiş, Konya Meram ilçesini ve belediye hizmetlerini tanıtan çok sayfalı bir web sitesi.
 
 > **Not:** Bu proje, React öğrenme sürecinde hazırlanmış bir **öğrenci projesidir**. Meram Belediyesi'nin resmi web sitesi değildir ve belediyeyle herhangi bir bağlantısı yoktur.
 
