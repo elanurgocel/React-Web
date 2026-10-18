@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Meram Belediyesi Tanıtım Sitesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React ile geliştirilmiş, Konya Meram ilçesini ve belediye hizmetlerini tanıtan çok sayfalı bir web sitesi.
 
-## Available Scripts
+> **Not:** Bu proje, React öğrenme sürecinde hazırlanmış bir **öğrenci projesidir**. Meram Belediyesi'nin resmi web sitesi değildir ve belediyeyle herhangi bir bağlantısı yoktur.
 
-In the project directory, you can run:
+## Özellikler
 
-### `npm start`
+- **Çok sayfalı yapı:** Anasayfa, Hakkımızda, Hizmetlerimiz ve İletişim sayfaları
+- **Sayfa yönlendirme:** React Router ile sayfa yenilenmeden geçiş
+- **Otomatik fotoğraf slaytı:** Anasayfada belirli aralıklarla değişen görseller ve elle geçiş noktaları
+- **Duyarlı menü:** Mobil ekranlarda açılır menüye dönüşen gezinme çubuğu
+- **İletişim formu arayüzü:** İsim, e-posta, konu ve mesaj alanları içeren form tasarımı
+- **Bileşen tabanlı mimari:** Navbar, Hero, Footer gibi tekrar kullanılabilir React bileşenleri
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Kullanılan Teknolojiler
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React 18
+- React Router 6
+- JavaScript (ES6+)
+- CSS
+- Font Awesome ikonları
 
-### `npm test`
+## Proje Yapısı
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+src/
+├── components/   # Navbar, Hero, Footer, Trip, Destination, ContactForm vb.
+├── routes/       # Home, About, Service, Contact sayfaları
+├── assets/       # Logo ve görseller
+├── App.js        # Sayfa yönlendirmeleri
+└── index.js      # Uygulamanın giriş noktası
+```
 
-### `npm run build`
+## Çalıştırma
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bilgisayarınızda [Node.js](https://nodejs.org) kurulu olmalıdır.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Bağımlılıkları yükleyin
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Geliştirme sunucusunu başlatın
+npm start
+```
 
-### `npm run eject`
+Ardından tarayıcıda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Görseller
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sitede kullanılan fotoğraflar ve logo, tanıtım amacıyla Meram Belediyesi'nin herkese açık kaynaklarından alınmıştır. Tüm hakları sahiplerine aittir.
